@@ -1,0 +1,55 @@
+@import "./start";
+$fontStyle : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$fontColor : rgb(71, 77, 76);
+
+
+.portfolioContainer{
+    font-family: $fontStyle;
+    color: $fontColor;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #c3cfe2;
+}
+
+.top{
+    height: 350px;
+    width: 275px;
+    padding: 10px;
+    margin: 0px;
+    background-color: white;
+    border-radius: 25px 25px 0% 0%;
+}
+
+img{
+    position: absolute;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    top: 275px;
+    &:hover{
+        border: 5px solid grey;
+    }
+}
+
+.bottum{
+    top: 250px;
+    height: 150px;
+    width: 275px;
+    padding: 10px;
+    background-color: #686de0;
+    border-radius: 0 0 25px 25px;
+}
+
+.bottumText{
+    position: relative;
+    bottom: -70px;
+    text-align: center;
+    color: white;
+}
+    
